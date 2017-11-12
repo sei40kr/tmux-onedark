@@ -24,6 +24,8 @@ main() {
 
   tmux set-window-option -g window-status-current-format ' #I #W '
   tmux set-window-option -g window-status-current-style "bg=#98c379,fg=#282c34"
+
+  tmux set-window-option -g window-status-separator ''
 }
 
 main
