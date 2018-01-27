@@ -12,7 +12,7 @@ Atom's OneDark theme for TMUX!
 
 ## How it looks
 
-![How tmux-onedark looks](https://raw.githubusercontent.com/sei40kr/tmux-onedark/master/screenshot.png)
+![How tmux-onedark looks](https://raw.githubusercontent.com/sei40kr/tmux-onedark/master/img/preview.png)
 
 ## Requirements
 
