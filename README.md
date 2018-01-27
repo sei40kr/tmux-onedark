@@ -1,10 +1,11 @@
 # tmux-onedark
 
-Atom's OneDark theme for tmux!
+Atom's OneDark theme for TMUX!
 
 <!-- vim-markdown-toc GFM -->
 
 - [How it looks](#how-it-looks)
+- [Requirements](#requirements)
 - [Installation](#installation)
 
 <!-- vim-markdown-toc -->
@@ -13,10 +14,15 @@ Atom's OneDark theme for tmux!
 
 ![How tmux-onedark looks](https://raw.githubusercontent.com/sei40kr/tmux-onedark/master/screenshot.png)
 
+## Requirements
+
+* [tmux-plugins/tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight)
+
 ## Installation
 
-Install using [tpm](https://github.com/tmux-plugins/tpm)
+Install using [tpm](https://github.com/tmux-plugins/tpm).
 
 ```tmux
+set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 set -g @plugin 'sei40kr/tmux-onedark'
 ```
