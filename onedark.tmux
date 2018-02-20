@@ -14,10 +14,8 @@ main() {
   tmux set-option -g status-style "bg=${comment_grey}"
   tmux set-option -g status-left ' #S '
   tmux set-option -g status-left-style "bg=${green},fg=${black}"
-  tmux set-option -g status-right "#{prefix_highlight} #[bg=${menu_grey}] %m/%d %a %R "
-  tmux set-option -g status-right-style "bg=${comment_grey},fg=${white}"
-  tmux set-option -g @prefix_highlight_bg "${dark_green}"
-  tmux set-option -g @prefix_highlight_fg "${black}"
+  tmux set-option -g status-right ' %m/%d %a %R '
+  tmux set-option -g status-right-style "bg=${menu_grey},fg=${white}"
 
   tmux set-window-option -g window-status-format ' #I #W '
   tmux set-window-option -g window-status-style "bg=${menu_grey}"
